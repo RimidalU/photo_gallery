@@ -48,7 +48,17 @@ main {
 
 footer {
 	height: 3.5rem;
+	line-height: 3.5rem;
+	text-align: center;
 	margin: 0 auto;
+}
+
+header {
+	height: 6rem;
+	line-height: 6rem;
+	text-align: center;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .container {
