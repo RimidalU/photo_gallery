@@ -97,6 +97,13 @@ article {
 	text-transform: capitalize;
 }
 
+.picture__description {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 6;
+}
+
 .hidden > div {
 	display: none;
 }

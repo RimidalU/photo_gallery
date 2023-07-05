@@ -12,7 +12,7 @@ const createCard = (items) => {
             >
                 <div class="picture__note">
                     <h3 class="picture__title">${item.name}</h3>
-                    <p>${item.description}</p>
+                    <p class="picture__description" >${item.description}</p>
                 </div>
             </article>`
     })
