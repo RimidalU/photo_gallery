@@ -7,8 +7,8 @@ const createCard = (items) => {
         innerHTML +=
             `            
             <article id="${item.name}" 
-                class="hidden" onmouseover = "this.classList.remove('hidden')" 
-                onmouseout = "this.classList.add('hidden')"
+                class="hidden__text picture__card" onmouseover = "this.classList.remove('hidden__text')" 
+                onmouseout = "this.classList.add('hidden__text')"
             >
                 <div class="picture__note">
                     <h3 class="picture__title">${item.name}</h3>

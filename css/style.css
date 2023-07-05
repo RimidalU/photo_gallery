@@ -62,10 +62,12 @@ footer {
 
 header {
 	height: 6rem;
+	width: 100%;
 	line-height: 6rem;
-	text-align: center;
 	margin: 0 auto;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
 section {
@@ -114,7 +116,11 @@ article {
 	bottom: 0px;
 }
 
-.hidden > div {
+.hidden__text > div {
+	display: none;
+}
+
+.hidden__card {
 	display: none;
 }
 
@@ -127,4 +133,25 @@ article {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.search__wrwpper {
+	height: 3.5rem;
+	max-width: fit-content;
+	z-index: 4;
+	position: sticky;
+	top: 0;
+	padding: 1rem;
+	background-color: var(--secondary-color);
+	opacity: 0.8;
+	& input {
+		font-size: 24px;
+	}
+}
+
+.search__input {
+	font-size: 1.2rem;
+	padding: 0.3rem;
+	border: 3px solid var(--secondary-color);
+	background-color: var(--font-color);
 }
