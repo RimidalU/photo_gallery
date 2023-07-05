@@ -61,6 +61,40 @@ header {
 	text-align: center;
 }
 
+section {
+	text-align: center;
+	padding-top: 74px;
+}
+
+article {
+	display: inline-block;
+	position: relative;
+}
+
+.gallery__img {
+	height: 35vh;
+	margin: 0.4rem;
+	cursor: pointer;
+}
+
+.picture__note {
+	position: absolute;
+	margin: 0.4rem;
+	left: 0;
+	bottom: 0.2rem;
+	background-color: var(--secondary-color);
+	opacity: 0.8;
+}
+
+.picture__title {
+	margin-bottom: 1rem;
+	text-transform: capitalize;
+}
+
+.hidden > div {
+	display: none;
+}
+
 .container {
 	max-width: 1920px;
 	height: 100vh;
